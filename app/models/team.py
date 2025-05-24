@@ -14,11 +14,11 @@ class Team:
     def update_team_stat(self, points: int = 0, wins: int = 0, draw: int = 0, losses: int = 0,
                          goals_scored: int = 0, goals_conceded: int = 0):
         self.points = points
-        self.points = wins
-        self.points = draw
-        self.points = losses
-        self.points = goals_scored
-        self.points = goals_conceded
+        self.wins = wins
+        self.draw = draw
+        self.losses = losses
+        self.goals_scored = goals_scored
+        self.goals_conceded = goals_conceded
 
     def add_player(self, player):
         self.players.append(player)
